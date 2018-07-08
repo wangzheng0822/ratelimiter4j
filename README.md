@@ -47,14 +47,14 @@ System.setProperty("ratelimiter.redis.address", "127.0.0.1");
 System.setProperty("ratelimiter.redis.port", "6379");
 UrlRateLimiter ratelimiter = new DistributedUrlRateLimiter();
 try {
-	ratelimiter.limit("app-1", "http://www.eudemon.com/v1/user/12345");
-	System.out.println("passed");
+  ratelimiter.limit("app-1", "http://www.eudemon.com/v1/user/12345");
+  System.out.println("passed");
 } catch (OverloadException e) {
-	// business logic
+  // business logic
 } catch (InvalidUrlException e) {
-	// business logic
+  // business logic
 } catch (InternalErrorException e) {
-	// business logic
+  // business logic
 }
 ```
 限流规则配置，放置在classpath下面：ratelimiter-rule.yaml，同上面的相同
