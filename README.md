@@ -61,6 +61,6 @@ try {
 
 另外，更加详细配置及其使用方法，请参看[User Guide开发手册](https://github.com/wangzheng0822/ratelimiter/wiki/User-Guide "User Guide开发手册")
  
-另外，使用前请先确认性能是否满足应用场景，所以请务必阅读[benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/Benchmark)，必要情况下请参照测试文档和benchmark code自行测试：benchmarkxxx
+另外，使用前请先确认性能是否满足应用场景，所以请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/Benchmark)，必要情况下请参照测试文档和benchmark code自行测试：benchmarkxxx
 
 联系作者：提交issue或wangyifei0822@qq.com或weixin:wangzheng0822
