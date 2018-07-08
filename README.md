@@ -14,14 +14,14 @@ RateLimiter是一个限流框架，提供了对HTTP接口的访问限流功能�
 ```java
 UrlRateLimiter ratelimiter = new MemoryUrlRateLimiter();
 try {
-	ratelimiter.limit("app-1", "http://www.eudemon.com/v1/user/12345");
-	System.out.println("passed");
+  ratelimiter.limit("app-1", "http://www.eudemon.com/v1/user/12345");
+  System.out.println("passed");
 } catch (OverloadException e) {
-	// business logic
+  // business logic
 } catch (InvalidUrlException e) {
-	// business logic
+  // business logic
 } catch (InternalErrorException e) {
-	// business logic
+  // business logic
 }
 ```
 限流规则配置，放置在classpath下面：ratelimiter-rule.yaml
