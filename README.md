@@ -1,3 +1,4 @@
+# Ratelimiter4j - High Fault-tolerance, Low Latency, High Performance Java Rate Limiting Library/Framework
 
 RateLimiter是一个限流框架，提供了对HTTP接口的访问限流功能。其特点：
 * 提供了各种灵活的配置方式，同时支持零配置纯编程使用模式
@@ -8,6 +9,7 @@ RateLimiter是一个限流框架，提供了对HTTP接口的访问限流功能�
 * 高度容错，异常并不会影响业务接口，参看user guide
 * 低延迟，不影响业务接口响应时间，参看benchmark
 * 支持不同粒度的接口限流，支持接口中包含restful url template variables
+* 方便添加各种限流算法
 
 # Get started:
 基于内存的限流，如果不需要特殊配置，使用起来非常简单，如下几行代码即可：
