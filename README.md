@@ -1,6 +1,6 @@
 # Ratelimiter4j 
 ### Features
-RateLimiter是一个高度容错，低延迟，高性能的限流library/框架，提供了对HTTP接口的访问限流功能。其特点：
+RateLimiter是一个高度容错，低延迟，高性能的限流开发库/框架，提供了对HTTP接口的访问限流功能。其特点：
 * 提供了各种灵活的配置方式，同时支持零配置纯编程使用模式
 * 支持yaml, json等多种限流规则配置格式
 * 支持本地文件配置限流规则或者zookeeper集中配置方式
@@ -12,7 +12,7 @@ RateLimiter是一个高度容错，低延迟，高性能的限流library/框架�
 * 灵活的集成方式，方便集成spring开发框架
 
 ### Prerequisite
-RateLimit4J requires Java 8
+RateLimit4J需要Java 8及以上版本
 
 ### Building
 ```shell
