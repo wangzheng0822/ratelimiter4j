@@ -11,7 +11,7 @@ RateLimiter是一个高度容错，低延迟，高性能的限流library/框架�
 * 支持不同粒度的接口限流，支持接口中包含restful url template variables
 * 灵活的集成方式，方便集成spring开发框架
 
-### Get started:
+### Get started
 获取jar library Maven config:
 ```
 ```
@@ -141,5 +141,5 @@ try {
   </tr>
 </table>
 
-### Contacts:
+### Contacts
 提交issue或wangyifei0822@qq.com或weixin:wangzheng0822
