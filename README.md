@@ -11,6 +11,16 @@ RateLimiter是一个高度容错，低延迟，高性能的限流library/框架�
 * 支持不同粒度的接口限流，支持接口中包含restful url template variables
 * 灵活的集成方式，方便集成spring开发框架
 
+### Prerequisite
+RateLimit4J requires Java 8
+
+### Building
+```shell
+$ git clone https://github.com/wangzheng0822/ratelimiter4j
+$ cd ratelimiter4j/
+$ gradle build
+```
+
 ### Get started
 获取jar library Maven config:
 ```
@@ -69,12 +79,12 @@ try {
 ```
 限流规则配置，放置在classpath下面：ratelimiter-rule.yaml，同上面的相同
 
-### Documents
+### Documentation
 更加详细配置及其使用方法及其examples，请参看[User Guide开发手册](https://github.com/wangzheng0822/ratelimiter/wiki/1.-User-Guide%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C "User Guide开发手册")
  
 使用前请先确认性能是否满足应用场景，请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/2.-Benchmark%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A)
 
-必要情况下请参照测试文档和benchmark code自行测试：[RateLimiterBenchmarkTest.java](https://github.com/wangzheng0822/ratelimiter/blob/master/src/test/java/com/eudemon/ratelimiter/benchmark/RateLimiterBenchmarkTest.java)
+必要情况下请参照测试文档和benchmark code自行测试[RateLimiterBenchmarkTest.java](https://github.com/wangzheng0822/ratelimiter/blob/master/src/test/java/com/eudemon/ratelimiter/benchmark/RateLimiterBenchmarkTest.java)
 
 
 ### Roadmap
