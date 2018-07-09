@@ -1,0 +1,28 @@
+{ "configs": [
+  {
+    "appId": "app-1",
+    "limits": [
+      {
+        "api": "/v1/user",
+        "limit": "100"
+      },
+      {
+        "api": "/v1/order",
+        "limit": "50"
+      }
+    ]
+  },
+  {
+    "appId": "app-2",
+    "limits": [
+      {
+        "api": "/v1/user",
+        "limit": "50"
+      },
+      {
+        "api": "/v1/order",
+        "limit": "50"
+      }
+    ]
+  }
+]}

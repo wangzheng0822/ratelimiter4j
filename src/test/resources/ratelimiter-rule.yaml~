@@ -1,0 +1,7 @@
+configs:
+- appId: app1
+  limits:
+  - api: /user/{uid}
+    limit: 10
+  - api: /walet
+    limit: 10

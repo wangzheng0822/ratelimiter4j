@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Properties>
+        <Property name="pathName">${sys:catalina.logs}</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingFile name="rateLimiterLog" fileName="${pathName}/ratelimiter.log"
+                     filePattern="${pathName}/business-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout pattern="%d{MM/dd/yy HH:mm:ss:SSS:} [SEQID:%X{SEQID}] [%t] %-5level %logger{36} - %msg%n"/>
+            <SizeBasedTriggeringPolicy size="100 MB" />
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="rateLimiterLog"/>
+        </Root>
+        <Logger name="com.dianrong.platform.ratelimiter" additivity="false" level="WARN">
+            <appender-ref ref="rateLimiterLog"/>
+        </Logger>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,5 @@
+ratelimiter:
+  rule:
+    config:
+      source: file
+ratelimiter.rule.config.parser: yaml
