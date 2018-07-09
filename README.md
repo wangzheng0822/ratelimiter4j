@@ -77,7 +77,7 @@ try {
 必要情况下请参照测试文档和benchmark code自行测试：[RateLimiterBenchmarkTest.java](https://github.com/wangzheng0822/ratelimiter/blob/master/src/test/java/com/eudemon/ratelimiter/benchmark/RateLimiterBenchmarkTest.java)
 
 
-### Roadmap(TO-DO LIST)
+### Roadmap
 <table>
   <tr>
     <td>功能</td>
