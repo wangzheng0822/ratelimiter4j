@@ -75,13 +75,48 @@ try {
 使用前请先确认性能是否满足应用场景，所以请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/2.-Benchmark%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A)，必要情况下请参照测试文档和benchmark code自行测试：benchmarkxxx
 
 ### Roadmap(TO-DO LIST)
-* 支持Redis cluster
-* 支持limit接口超时参数
-* 限流规则支持指定time unit
-* 支持不区分app ID的限流模式
-* 支持并发限制
-* 限流规则支持GET/POST等http schema
-* 开发更高性能的分布式限流算法
+<table>
+  <tr>
+    <td>功能</td>
+    <td>优先级</td>
+    <td>进度</td>
+  </tr>
+  <tr>
+    <td>支持Redis cluster</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持limit接口超时参数</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>限流规则支持指定time unit</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持不区分app ID的限流模式</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持并发限制</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>限流规则支持GET/POST等http schema</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>开发更高性能的分布式限流算法</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+</table>
 
 ### Contacts:
 提交issue或wangyifei0822@qq.com或weixin:wangzheng0822
