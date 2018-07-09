@@ -1,5 +1,5 @@
 # Ratelimiter4j 
-
+### Features
 RateLimiter是一个高度容错，低延迟，高性能的限流library/框架，提供了对HTTP接口的访问限流功能。其特点：
 * 提供了各种灵活的配置方式，同时支持零配置纯编程使用模式
 * 支持yaml, json等多种限流规则配置格式
@@ -12,7 +12,15 @@ RateLimiter是一个高度容错，低延迟，高性能的限流library/框架�
 * 方便添加各种限流算法
 
 ### Get started:
-#### 基于内存的限流，如果不需要特殊配置，使用起来非常简单，如下几行代码即可：
+获取jar library Maven config:
+```
+```
+
+获取jar libaray Gradle config:
+```
+```
+
+基于内存的限流，如果不需要特殊配置，使用起来非常简单，如下几行代码即可：
 ```java
 UrlRateLimiter ratelimiter = new MemoryUrlRateLimiter();
 try {
@@ -43,7 +51,7 @@ configs:
     limit: 50
 ```
 
-#### 基于Redis的分布式限流，如果不需要特殊设置，只需要简单配置一下Redis地址，如下：
+基于Redis的分布式限流，如果不需要特殊设置，只需要简单配置一下Redis地址，如下：
 ```java
 System.setProperty("ratelimiter.redis.address", "127.0.0.1");
 System.setProperty("ratelimiter.redis.port", "6379");
@@ -62,9 +70,9 @@ try {
 限流规则配置，放置在classpath下面：ratelimiter-rule.yaml，同上面的相同
 
 ### Documents
-另外，更加详细配置及其使用方法，请参看[User Guide开发手册](https://github.com/wangzheng0822/ratelimiter/wiki/1.-User-Guide%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C "User Guide开发手册")
+更加详细配置及其使用方法及其examples，请参看[User Guide开发手册](https://github.com/wangzheng0822/ratelimiter/wiki/1.-User-Guide%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C "User Guide开发手册")
  
-另外，使用前请先确认性能是否满足应用场景，所以请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/2.-Benchmark%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A)，必要情况下请参照测试文档和benchmark code自行测试：benchmarkxxx
+使用前请先确认性能是否满足应用场景，所以请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/2.-Benchmark%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A)，必要情况下请参照测试文档和benchmark code自行测试：benchmarkxxx
 
 ### Roadmap(TO-DO LIST)
 * 支持Redis cluster
