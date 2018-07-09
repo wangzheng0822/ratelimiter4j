@@ -4,12 +4,12 @@ RateLimiter是一个高度容错，低延迟，高性能的限流library/框架�
 * 提供了各种灵活的配置方式，同时支持零配置纯编程使用模式
 * 支持yaml, json等多种限流规则配置格式
 * 支持本地文件配置限流规则或者zookeeper集中配置方式
-* 使用SPI插件式开发模式，方便使用者二次开发
+* 使用SPI插件式开发模式，支持自定义限流规则格式，限流算法等
 * 提供了基于内存的单机限流和基于Redis的分布式限流功能
-* 高度容错，异常并不会影响业务接口，参看user guide
-* 低延迟，不影响业务接口响应时间，参看benchmark
+* 高度容错，限流框架的任何异常都不会影响业务接口
+* 低延迟，限流框架不影响业务接口响应时间
 * 支持不同粒度的接口限流，支持接口中包含restful url template variables
-* 方便添加各种限流算法
+* 灵活的集成方式，方便集成spring开发框架
 
 ### Get started:
 获取jar library Maven config:
@@ -85,7 +85,7 @@ try {
     <td>进度</td>
   </tr>
   <tr>
-    <td>支持Redis cluster</td>
+    <td>分布式限流支持Redis cluster & sharding</td>
     <td>p1</td>
     <td>未开发</td>
   </tr>
@@ -105,7 +105,7 @@ try {
     <td>未开发</td>
   </tr>
   <tr>
-    <td>支持并发限制</td>
+    <td>支持线程并发限制</td>
     <td>p1</td>
     <td>未开发</td>
   </tr>
@@ -115,7 +115,27 @@ try {
     <td>未开发</td>
   </tr>
   <tr>
-    <td>开发更高性能的分布式限流算法</td>
+    <td>分布式限流算法性能优化</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持黑白名单和鉴权功能</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持更多的限流算法</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持更加通用的限流：db,业务，dubbo等</td>
+    <td>p1</td>
+    <td>未开发</td>
+  </tr>
+  <tr>
+    <td>支持可以任意指定rule存放的位置file</td>
     <td>p1</td>
     <td>未开发</td>
   </tr>
