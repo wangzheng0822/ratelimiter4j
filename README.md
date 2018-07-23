@@ -21,14 +21,7 @@ $ cd ratelimiter4j/
 $ gradle build
 ```
 
-### Get started
-获取jar library Maven config:
-```
-```
-
-获取jar libaray Gradle config:
-```
-```
+### Quick start
 
 基于内存的限流，如果不需要特殊配置，使用起来非常简单，如下几行代码即可：
 ```java
