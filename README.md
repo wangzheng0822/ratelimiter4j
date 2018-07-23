@@ -21,7 +21,7 @@ $ cd ratelimiter4j/
 $ gradle build
 ```
 
-### Quick start
+### Quickstart
 
 基于内存的限流，如果不需要特殊配置，使用起来非常简单，如下几行代码即可：
 ```java
