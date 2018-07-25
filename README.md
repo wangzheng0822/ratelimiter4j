@@ -87,7 +87,7 @@ try {
     <td>进度</td>
   </tr>
   <tr>
-    <td>分布式限流支持Redis cluster & sharding</td>
+    <td>分布式限流算法支持Redis cluster & sharding</td>
     <td>p1</td>
     <td>未开发</td>
   </tr>
