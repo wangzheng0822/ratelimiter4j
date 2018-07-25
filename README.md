@@ -56,8 +56,7 @@ configs:
 
 基于Redis的分布式限流，如果不需要特殊设置，只需要简单配置一下Redis地址，如下：
 ```java
-System.setProperty("ratelimiter.redis.address", "127.0.0.1");
-System.setProperty("ratelimiter.redis.port", "6379");
+System.setProperty("ratelimiter.redis.address", "127.0.0.1:6379");
 UrlRateLimiter ratelimiter = new DistributedUrlRateLimiter();
 try {
   ratelimiter.limit("app-1", "http://www.eudemon.com/v1/user/12345");
