@@ -20,7 +20,7 @@
             <AppenderRef ref="Console"/>
             <AppenderRef ref="rateLimiterLog"/>
         </Root>
-        <Logger name="com.dianrong.platform.ratelimiter" additivity="false" level="WARN">
+        <Logger name="com.eudemon.ratelimiter" additivity="false" level="WARN">
             <appender-ref ref="rateLimiterLog"/>
         </Logger>
     </Loggers>
