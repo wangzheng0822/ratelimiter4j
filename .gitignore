@@ -1,0 +1,32 @@
+# Package Files #
+*.jar
+
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Build Output
+build
+
+!gradle/wrapper/gradle-wrapper.jar
+
+.gradle/
+
+# IntelliJ
+*.iml
+!.idea/
+.idea/*
+classes/*
+!.idea/runConfigurations/
+*/out/
+
+*.log
+*.log.gz
+
+bin/*
+*/out/*
+
+.java-version
+
+.DS_Store
+

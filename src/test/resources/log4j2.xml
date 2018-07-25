@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="INFO">
     <Properties>
-        <Property name="pathName">${sys:catalina.logs}</Property>
+        <Property name="pathName">./</Property>
     </Properties>
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
