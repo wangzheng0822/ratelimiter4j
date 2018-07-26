@@ -25,18 +25,6 @@ import com.eudemon.ratelimiter.rule.ApiLimit;
 import com.eudemon.ratelimiter.rule.UrlRateLimitRule;
 import com.eudemon.ratelimiter.utils.UrlUtils;
 
-/**
- * main metrics: api cost time(avg, 99%, 90%, max, min)
- *
- * case 1: 1 thread - 1,000,000 - 1 url
- *
- * case 2: 100/200/300 threads - 10,000 each thread - 1url
- *
- * case 3: 100/200/300 threads - 10,000 each thread - 100 urls
- *
- * case 4: 100/200/300 threads -10,000 each thread -- 100urls -- sleep 1ms every call
- *
- */
 public class RateLimiterBenchmarkTest {
 
   private static List<Case> cases = Arrays.asList(new Case[] {
