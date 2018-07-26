@@ -99,12 +99,12 @@ try {
   <tr>
     <td>限流规则支持指定time unit</td>
     <td>p1</td>
-    <td>未开发</td>
+    <td>in progress</td>
   </tr>
   <tr>
     <td>支持不区分app ID的限流模式</td>
     <td>p1</td>
-    <td>未开发</td>
+    <td>in progress</td>
   </tr>
   <tr>
     <td>支持线程并发限制</td>
@@ -114,7 +114,7 @@ try {
   <tr>
     <td>限流规则支持GET/POST等http schema</td>
     <td>p1</td>
-    <td>未开发</td>
+    <td>in progress</td>
   </tr>
   <tr>
     <td>分布式限流算法性能优化</td>
@@ -139,7 +139,7 @@ try {
   <tr>
     <td>支持可以任意指定rule存放的位置file</td>
     <td>p1</td>
-    <td>未开发</td>
+    <td>in progress</td>
   </tr>
 </table>
 
