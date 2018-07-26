@@ -27,7 +27,7 @@ public interface UrlRateLimiter {
    * 
    * @param interceptor the interceptor to be added into the interceptor chain.
    */
-  public void addInterceptor(RateLimiterInterceptor interceptor);
+  void addInterceptor(RateLimiterInterceptor interceptor);
 
   /**
    * Add interceptors into the default interceptor chain. The interceptor will do some work
@@ -35,6 +35,6 @@ public interface UrlRateLimiter {
    * 
    * @param interceptors the interceptor list to be added into the interceptor chain.
    */
-  public void addInteceptors(List<RateLimiterInterceptor> interceptors);
+  void addInteceptors(List<RateLimiterInterceptor> interceptors);
 
 }
