@@ -142,9 +142,9 @@ try {
     <td>in progress</td>
   </tr>
   <tr>
-    <td>添加更加完善的监控/td>
+    <td>添加更加完善的监控</td>
     <td>p1</td>
-    <td>in progress</td>
+    <td>未开发</td>
   </tr>
 </table>
 
