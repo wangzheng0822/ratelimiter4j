@@ -72,6 +72,8 @@ try {
 限流规则配置，放置在classpath下面：ratelimiter-rule.yaml，同上面的相同
 
 ### Documentation
+作者还写了一篇科普文章，发表于Infoq的架构公众号(聊聊架构)：[微服务接口限流的设计与思考](https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&mid=2247488188&idx=1&sn=9e77a94b271909fecba136baab66a722&chksm=96c9a4dca1be2dcae2b1780cefaf22a6b6db4ecbe46357cf9e66dd3635db31bd3fea29414c36#rd)
+
 更加详细配置及其使用方法及其examples，请参看[User Guide开发手册](https://github.com/wangzheng0822/ratelimiter/wiki/1.-User-Guide%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C "User Guide开发手册")
  
 使用前请先确认性能是否满足应用场景，请务必阅读[Benchmark性能测试报告](https://github.com/wangzheng0822/ratelimiter/wiki/2.-Benchmark%E6%80%A7%E8%83%BD%E6%B5%8B%E8%AF%95%E6%8A%A5%E5%91%8A)
