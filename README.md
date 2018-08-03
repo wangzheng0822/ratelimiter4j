@@ -134,7 +134,7 @@ try {
     <td>未开发</td>
   </tr>
   <tr>
-    <td>支持更加通用的限流：db,业务，dubbo等</td>
+    <td>支持更加通用的限流：db,业务,dubbo等</td>
     <td>p1</td>
     <td>未开发</td>
   </tr>
