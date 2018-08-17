@@ -152,5 +152,3 @@ try {
 
 ### Contacts
 提交issue或wangyifei0822@qq.com或weixin:wangzheng0822 
-
-如果您觉得这个开源项目不错，请点击右上角的star，您的star是我继续开源更多作品的动力！
