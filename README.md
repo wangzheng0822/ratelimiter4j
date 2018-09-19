@@ -149,6 +149,3 @@ try {
     <td>未开发</td>
   </tr>
 </table>
-
-### Contacts
-提交issue或wangyifei0822@qq.com或weixin:wangzheng0822 
