@@ -174,7 +174,7 @@ public class DistributedUrlRateLimiter extends AbstractUrlRateLimiter implements
 
       DistributedUrlRateLimiter ratelimiter = new DistributedUrlRateLimiter(executor, source);
       if (this.interceptors != null && !this.interceptors.isEmpty()) {
-        ratelimiter.addInteceptors(interceptors);
+        ratelimiter.addInterceptors(interceptors);
       }
       return ratelimiter;
     }

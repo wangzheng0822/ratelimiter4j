@@ -35,6 +35,6 @@ public interface UrlRateLimiter {
    * 
    * @param interceptors the interceptor list to be added into the interceptor chain.
    */
-  void addInteceptors(List<RateLimiterInterceptor> interceptors);
+  void addInterceptors(List<RateLimiterInterceptor> interceptors);
 
 }
