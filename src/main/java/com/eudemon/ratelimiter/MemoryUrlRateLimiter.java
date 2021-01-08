@@ -138,7 +138,7 @@ public class MemoryUrlRateLimiter extends AbstractUrlRateLimiter implements UrlR
 
       MemoryUrlRateLimiter ratelimiter = new MemoryUrlRateLimiter(source);
       if (this.interceptors != null && !this.interceptors.isEmpty()) {
-        ratelimiter.addInteceptors(interceptors);
+        ratelimiter.addInterceptors(interceptors);
       }
       return ratelimiter;
     }

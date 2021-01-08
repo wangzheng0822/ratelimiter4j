@@ -87,7 +87,7 @@ public abstract class AbstractUrlRateLimiter implements UrlRateLimiter {
    * @param interceptors the interceptor list to be added into the interceptor chain.
    */
   @Override
-  public void addInteceptors(List<RateLimiterInterceptor> interceptors) {
+  public void addInterceptors(List<RateLimiterInterceptor> interceptors) {
     if (interceptors != null && !interceptors.isEmpty()) {
       this.interceptorChain.addInterceptors(interceptors);
     }
